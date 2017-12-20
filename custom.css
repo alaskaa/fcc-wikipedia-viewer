@@ -6,3 +6,8 @@ h1 {
   color: white;
   font-family: Dosis, sans-serif;
 }
+
+.search-atts {
+  font-size: 50px;
+  color: white
+}
