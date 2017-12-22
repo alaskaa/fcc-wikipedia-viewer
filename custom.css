@@ -8,6 +8,10 @@ h1 {
 }
 
 .search-atts {
-  font-size: 50px;
-  color: white
+  font-size: 30px;
+  color: white;
+}
+
+.search-bar {
+  border-radius: 10px;
 }
