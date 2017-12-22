@@ -7,6 +7,10 @@ h1 {
   font-family: Dosis, sans-serif;
 }
 
+p {
+  color: white;
+}
+
 .search-atts {
   font-size: 30px;
   color: white;
