@@ -2,7 +2,7 @@ $(document).ready(function(){
      $('span').click(function(e) {
        e.preventDefault();
        $.ajax({
-         url: 'http://en.wikipedia.org/w/api.php',
+         url: 'https://en.wikipedia.org/w/api.php',
          data: {
          action: 'query',
          list: 'search',
