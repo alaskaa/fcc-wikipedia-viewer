@@ -39,6 +39,10 @@ p {
   border-radius: 10px;
 }
 
+button {
+  visibility: hidden;
+}
+
 a {
   font-family: Dosis, sans-serif;
 }

@@ -1,5 +1,9 @@
+// call the Wikipedia API when the icon is pressed and search with
+// the query parameter that the user entered into the function
+// call processResult function on success
+
 $(document).ready(function(){
-     $('span').click(function(e) {
+     $('span').click(function callApi(e) {
        e.preventDefault();
        $.ajax({
          url: 'https://en.wikipedia.org/w/api.php',
@@ -15,6 +19,11 @@ $(document).ready(function(){
      });
    });
 });
+
+
+// processes the API result; clears any previously inputted values and then
+// displays title and snippet of the search string value results
+// resizes the gradient to fill whole page once values are entered
 
 function processResult(apiResult){
    $('#display-result').empty();
