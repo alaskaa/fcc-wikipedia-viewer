@@ -11,11 +11,50 @@ p {
   color: white;
 }
 
+.card-style {
+  width: 400px;
+  height: auto;
+  text-align: left;
+
+}
+
 .search-atts {
-  font-size: 30px;
+  font-size: 20px;
   color: white;
+}
+
+.search-atts:hover {
+  color:grey;
+  text-decoration: none;
 }
 
 .search-bar {
   border-radius: 10px;
+}
+
+a {
+  font-family: Dosis, sans-serif;
+}
+/* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: white;
+    text-decoration: none;
 }

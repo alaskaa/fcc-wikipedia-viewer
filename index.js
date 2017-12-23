@@ -20,7 +20,7 @@ function processResult(apiResult){
    console.log(apiResult);
    for (var i = 0; i < apiResult.query.search.length; i++){
         let url = "http://en.wikipedia.org/?curid="+apiResult.query.search[i].pageid;
-        $('#display-result').append('<a href="'+url+'">'+apiResult.query.search[i].title+'</a>'+'<br>');
+        $('#display-result').append('<a href="'+url+'"target="_blank">'+apiResult.query.search[i].title+'</a>'+'<br>');
         //$('#display-result').append('<p>'+apiResult.query.search[i].title+'</p>');
         //$('#display').append('<p>'+url+'</p>');
         console.log(url);
